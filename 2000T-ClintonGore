@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 367,
         "fields": {
             "priority": 1,
-            "description": "After being vetoed by President Bush twice, the Family and Medical Leave Act has finally hit your desk.",
+            "description": "After being vetoed by President Bush twice, the Family and Medical Leave Act has finally hit your desk. Will you sign it?",
             "likelihood": 1
         }
     },
@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 370,
         "fields": {
             "priority": 1,
-            "description": "What is your overall strategy for the 2000 campaign?",
+            "description": "An explosion has occurred in the basement levels of the World Trader Center in New York, and is believed to be a terrorist attack. Multiple people are reported dead, and many others injured. How are we going to respond? ",
             "likelihood": 1
         }
     },
@@ -818,7 +818,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3397,
         "fields": {
             "question": 367,
-            "description": "The Clinton Administration has added 23 million jobs to the American economy and unleashed an unprecedented wave of prosperity and innovation. I will continue his policies as President so that all Americans can prosper in the coming years."
+            "description": "Are you kidding? This is something we've been working on, that the president has vetoed multiple times. Of course I'll sign it."
         }
     },
     {
@@ -826,23 +826,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3398,
         "fields": {
             "question": 367,
-            "description": "We must not undo eight years of progress under President Clinton by cutting key programs and squandering the surplus on tax cuts for the rich. My opponent not only lacks experience, but his conservative ideas are out of step with those of the American public."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3399,
-        "fields": {
-            "question": 367,
-            "description": "I stand here tonight as my own man. We have much more work to do to ensure that America's prosperity flows to all of the people. We need more spending for education, infrastructure, and important research. We also need to protect Social Security, Medicare, and the environment."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3400,
-        "fields": {
-            "question": 367,
-            "description": "I stand here tonight as my own man. I will work day and night to support the hard-working American people. I will make sure our debt is paid down, and that senior citizens and middle class families are protected into the future. I will protect our most important programs from attacks and budget cuts."
+            "description": "Look, I think we need to roll back a little. We just got in, and I really don't wanna cause a little controversy so early. Why do you think Bush vetoed this twice? Tell them we'll veto now, but sign it later."
         }
     },
     {
@@ -1695,7 +1679,7 @@ campaignTrail_temp.issues_json = [
         "pk": 27,
         "fields": {
             "name": "Intervensionism",
-            "description": "",
+            "description": 0,
             "stance_1": "Love",
             "stance_desc_1": 0,
             "stance_2": "Love",
@@ -5929,82 +5913,12 @@ campaignTrail_temp.candidate_state_multiplier_json = [
 campaignTrail_temp.answer_score_global_json = [
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1021,
-        "fields": {
-            "answer": 3397,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1022,
-        "fields": {
-            "answer": 3397,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": 0.015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1023,
         "fields": {
             "answer": 3398,
             "candidate": 78,
-            "affected_candidate": 77,
+            "affected_candidate": 78,
             "global_multiplier": -0.0025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1024,
-        "fields": {
-            "answer": 3398,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": 0.0025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1025,
-        "fields": {
-            "answer": 3398,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1026,
-        "fields": {
-            "answer": 3399,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": -0.07
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1027,
-        "fields": {
-            "answer": 3400,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "global_multiplier": -0.006
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1028,
-        "fields": {
-            "answer": 3400,
-            "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": 0.06
         }
     },
     {
@@ -7689,67 +7603,17 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1327,
+        "pk": 12251,
         "fields": {
-            "answer": 3399,
+            "answer": 3397,
             "candidate": 78,
             "affected_candidate": 78,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.0004
         }
     }
 ]
 
 campaignTrail_temp.answer_score_issue_json = [
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 829,
-        "fields": {
-            "answer": 3397,
-            "issue": 27,
-            "issue_score": 0.333,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 830,
-        "fields": {
-            "answer": 3397,
-            "issue": 28,
-            "issue_score": 0.333,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 831,
-        "fields": {
-            "answer": 3397,
-            "issue": 29,
-            "issue_score": 0.333,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 832,
-        "fields": {
-            "answer": 3397,
-            "issue": 30,
-            "issue_score": 0.333,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 833,
-        "fields": {
-            "answer": 3397,
-            "issue": 31,
-            "issue_score": 0.333,
-            "issue_importance": 3
-        }
-    },
     {
         "model": "campaign_trail.answer_score_issue",
         "pk": 834,
@@ -7797,106 +7661,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3398,
             "issue": 31,
             "issue_score": 0.333,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 839,
-        "fields": {
-            "answer": 3399,
-            "issue": 27,
-            "issue_score": 0.625,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 840,
-        "fields": {
-            "answer": 3399,
-            "issue": 28,
-            "issue_score": 0.625,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 841,
-        "fields": {
-            "answer": 3399,
-            "issue": 29,
-            "issue_score": 0.625,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 842,
-        "fields": {
-            "answer": 3399,
-            "issue": 30,
-            "issue_score": 0.625,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 843,
-        "fields": {
-            "answer": 3399,
-            "issue": 31,
-            "issue_score": -0.1,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 844,
-        "fields": {
-            "answer": 3400,
-            "issue": 27,
-            "issue_score": 0.25,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 845,
-        "fields": {
-            "answer": 3400,
-            "issue": 28,
-            "issue_score": 0.25,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 846,
-        "fields": {
-            "answer": 3400,
-            "issue": 29,
-            "issue_score": 0.25,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 847,
-        "fields": {
-            "answer": 3400,
-            "issue": 30,
-            "issue_score": 0.25,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 848,
-        "fields": {
-            "answer": 3400,
-            "issue": 31,
-            "issue_score": -0.1,
             "issue_importance": 3
         }
     },
@@ -8755,57 +8519,13 @@ campaignTrail_temp.answer_score_issue_json = [
 campaignTrail_temp.answer_score_state_json = [
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 8860,
-        "fields": {
-            "answer": 3397,
-            "state": 184,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "state_multiplier": 0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 8861,
-        "fields": {
-            "answer": 3397,
-            "state": 197,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "state_multiplier": 0.015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 8862,
-        "fields": {
-            "answer": 3397,
-            "state": 198,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "state_multiplier": 0.015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 8863,
-        "fields": {
-            "answer": 3397,
-            "state": 205,
-            "candidate": 78,
-            "affected_candidate": 78,
-            "state_multiplier": 0.015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 8864,
         "fields": {
             "answer": 3397,
-            "state": 222,
+            "state": 215,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": 0.015
+            "state_multiplier": 0.000134
         }
     },
     {
@@ -33689,6 +33409,17 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 78,
             "state_multiplier": 0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12252,
+        "fields": {
+            "answer": 3397,
+            "state": 218,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.000134
+        }
     }
 ]
 
@@ -34554,7 +34285,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3397,
             "candidate": 78,
-            "answer_feedback": "Millions of satisfied Americans are watching you embrace the legacy of Clinton and pledge to continue it. "
+            "answer_feedback": "Your signing of the bill sees mass public support, especially with midwestern rural mothers who felt intimidated to not have kids in fear of losing their jobs. Big business won't like it, but you aren't trying to appeal to them."
         }
     },
     {
@@ -34563,25 +34294,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3398,
             "candidate": 78,
-            "answer_feedback": "Good combination of embracing Clinton and attacking Bush."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 874,
-        "fields": {
-            "answer": 3399,
-            "candidate": 78,
-            "answer_feedback": "Alright. Way to get that crowd fired up."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 875,
-        "fields": {
-            "answer": 3400,
-            "candidate": 78,
-            "answer_feedback": "Alright. Way to get that crowd fired up."
+            "answer_feedback": "Many Democrats in the senate are outraged. A bill they've worked on for years has now been vetoed three times between two presidents. They subsequently overwrote your veto, but nonetheless, this hurts your public perception."
         }
     },
     {
@@ -35220,7 +34933,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3501,
             "candidate": 78,
-            "answer_feedback": "After your words, you make your inaugural address, which is cheered on by the crowd. It all starts hitting you when you hear Hail to the Chief begin to play. You look over to Hillary and Chelsea, who are both by your side. You can't believe this moment has come, but as soon as you unpack your bags and can barely settle into the White House, you truly realize the job you've inherited from the failed 41st president. "
+            "answer_feedback": "After your words, you make your inaugural address, which is cheered on by the crowd. You look over to Hillary and Chelsea, who are both by your side. You can't believe this moment has come, but as soon as you unpack your bags and can barely settle into the White House, you truly realize the job you've inherited from the failed 41st president. "
         }
     }
 ]
