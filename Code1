@@ -1,0 +1,725 @@
+campaignTrail_temp.election_json = [
+  {
+      "model": "campaign_trail.election",
+      "pk": 9,
+      "fields": {
+          "year": 2000,
+          "summary": "<p>The Democrats have tried and failed to elect a president to two terms since FDR. Many Dems, such as Carter and Truman weren't popular enough. JFK was killed, LBJ was too old, and America has become too conservative for liberals like Humphrey, McGovern, and Mondale to even look electable. This has many wondering who the next two term Democrat may be, or if there will even be one.<p>",
+          "image_url": "https://m.media-amazon.com/images/I/510uDcc1z8L._AC_UF894,1000_QL80_.jpg",
+          "winning_electoral_vote_number": 270,
+          "advisor_url": "https://www.jetsimon.com/public/static/images/rove-brazile.jpg",
+          "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+          "has_visits": 1,
+          "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+          "creator": "Dan Bryan",
+          "display_year": "2000C"
+      }
+  }
+]
+
+
+
+
+campaignTrail_temp.candidate_json = [
+  {
+      "model": "campaign_trail.candidate",
+      "pk": 78,
+      "fields": {
+          "first_name": "Bill",
+          "last_name": "Clinton",
+          "election": 9,
+          "party": "Democrat",
+          "state": "Arkansas",
+          "priority": 1,
+          "description": "<p>Enter William Jefferson Clinton: the 42nd President of the United States.</p><p>The youngest president since John F. Kennedy, he was elected after defeating incumbent George Bush, and independent candidate H. Ross Perot. Clinton is also the first president during the post-Cold War era. His presidency has been very popular, and Clinton's economy has seen historic levels of growth for the USA. Although the Republicans are fired up and swept the midterms, most Americans still don't like them. He is the heavy favorite and if all goes well, he will most likely be re-elected.</p>",
+          "color_hex": "#0000ff",
+          "secondary_color_hex": "#FFA0A0",
+          "is_active": 1,
+          "image_url": "https://i.imgur.com/RNAoey9.png",
+          "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+          "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+          "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+          "description_as_running_mate": "''",
+          "candidate_score": 1,
+          "running_mate": false
+      }
+  },
+  {
+      "model": "campaign_trail.candidate",
+      "pk": 77,
+      "fields": {
+          "first_name": "Mr",
+          "last_name": "Republican",
+          "election": 9,
+          "party": "Republican",
+          "state": "Utah",
+          "priority": 2,
+          "description": "<p>The dream Republican candidate!</p><p>Figure out who he/she is this june!</p>",
+          "color_hex": "#ff0000",
+          "secondary_color_hex": "#90C0FF",
+          "is_active": 0,
+          "image_url": "",
+          "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+          "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+          "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+          "description_as_running_mate": "''",
+          "candidate_score": 1,
+          "running_mate": false
+      }
+  },
+  {
+      "model": "campaign_trail.candidate",
+      "pk": 80,
+      "fields": {
+          "first_name": "",
+          "last_name": "Buchanan/Others",
+          "election": 9,
+          "party": "Reform",
+          "state": "Virginia",
+          "priority": 4,
+          "description": "''",
+          "color_hex": "#FFFF00",
+          "secondary_color_hex": "#FFFFC0",
+          "is_active": 0,
+          "image_url": "''",
+          "electoral_victory_message": "''",
+          "electoral_loss_message": "''",
+          "no_electoral_majority_message": "''",
+          "description_as_running_mate": "''",
+          "candidate_score": 1,
+          "running_mate": false
+      }
+  },
+  {
+      "model": "campaign_trail.candidate",
+      "pk": 86,
+      "fields": {
+          "first_name": "Al",
+          "last_name": "Gore",
+          "election": 9,
+          "party": "Democrat",
+          "state": "Tennessee",
+          "priority": 5,
+          "description": "''",
+          "color_hex": "#0000ff",
+          "secondary_color_hex": "#FFA0A0",
+          "is_active": 0,
+          "image_url": "https://i.imgur.com/8gNBCxL.png",
+          "electoral_victory_message": "''",
+          "electoral_loss_message": "''",
+          "no_electoral_majority_message": "''",
+          "description_as_running_mate": "<p>Albert Arnold Gore Jr. is the 45th Vice President of the United States and is Bill Clinton's current VP. Dropping him would be disastrous and make Clinton look indecisive.</p></p>Though he wanted to run this year, he'd gladly join the ticket again. Liberals may be deflated, but it's good to stick with your decisions as a popular president and not rock the boat that hard this election.",
+          "candidate_score": 0,
+          "running_mate": true
+      }
+  }
+]
+
+
+
+
+campaignTrail_temp.running_mate_json = [
+  {
+      "model": "campaign_trail.running_mate",
+      "pk": 48,
+      "fields": {
+          "candidate": 78,
+          "running_mate": 86
+      }
+  }
+]
+
+
+
+
+campaignTrail_temp.credits = "AgreeableMachine91"
+
+
+
+
+campaignTrail_temp.global_parameter_json = [
+  {
+      "model": "campaign_trail.global_parameter",
+      "pk": 1,
+      "fields": {
+          "vote_variable": 1.125,
+          "max_swing": 0.12,
+          "start_point": 0.94,
+          "candidate_issue_weight": 10,
+          "running_mate_issue_weight": 3,
+          "issue_stance_1_max": -0.71,
+          "issue_stance_2_max": -0.3,
+          "issue_stance_3_max": -0.125,
+          "issue_stance_4_max": 0.125,
+          "issue_stance_5_max": 0.3,
+          "issue_stance_6_max": 0.71,
+          "global_variance": 0.01,
+          "state_variance": 0.005,
+          "question_count": 25,
+          "default_map_color_hex": "#C9C9C9",
+          "no_state_map_color_hex": "#999999"
+      }
+  }
+]
+
+
+
+
+campaignTrail_temp.opponents_default_json = [
+  {
+      "election": 9,
+      "candidates": [
+          77,
+          78,
+          80
+      ]
+  }
+]
+
+
+
+
+campaignTrail_temp.opponents_weighted_json = [
+  {
+      "election": 9,
+      "candidates": [
+          77,
+          78,
+          80
+      ]
+  }
+]
+
+
+
+
+campaignTrail_temp.temp_election_list = [
+  {
+      "id": 9,
+      "year": 2000,
+      "is_premium": 0,
+      "display_year": "2000C"
+  }
+]
+
+
+
+
+jet_data = {
+  "headerColor": "#003670",
+  "windowColor": "#e1bdff",
+  "containerColor": "#d7d6ff",
+  "innerWindowColor": "#ffadf0",
+  "bannerImageUrl": "https://i.imgur.com/hBg8V8r.png",
+  "backgroundImageUrl": "https://i.imgur.com/oFyAmeS.jpeg",
+  "endingTextColor": "#000000",
+  "customQuote": "",
+  "gameTitle": "NEW CAMPAIGN TRAIL"
+}
+
+
+
+
+//#startcode
+
+
+
+
+
+
+
+
+corrr = '\n              <h2>NEW CAMPAIGN TRAIL</h2>\n            ';
+
+
+
+
+
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#003670";
+
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e1bdff";
+
+
+
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+
+
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+
+
+
+$(".container")[0].style.backgroundColor = "#d7d6ff";
+
+
+
+
+document.getElementById("header").src = "https://i.imgur.com/hBg8V8r.png";
+
+
+
+
+document.body.background = "https://i.imgur.com/oFyAmeS.jpeg";
+
+
+
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffadf0!important;}</style>";
+
+
+document.head.innerHTML +=`
+<style>
+ .game_header {
+  background-color: #003670;
+}
+</style>`
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+  getTitle() {
+    return this.title;
+  }
+
+
+  getArtist() {
+    return this.artist;
+  }
+
+
+  getCoverLink() {
+    return this.coverLink;
+  }
+
+
+  getAudioLink() {
+    return this.audioLink;
+  }
+}
+
+
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+
+
+  addSong(song) {
+    this.songs.push(song);
+  }
+
+
+  getCurrentSong() {
+    return this.songs[this.currentSongIndex];
+  }
+
+
+  playNext() {
+    this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+  }
+
+
+  playPrevious() {
+    this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+  }
+}
+window.Playlist=Playlist
+window.Song=Song
+
+
+function changePlaylist(newPlaylist) {
+  playlist = newPlaylist;
+  playlist.currentSongIndex = 0;
+  updateUI(playlist);
+  const audio = document.getElementById("audio");
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+}
+window.changePlaylist=changePlaylist
+
+
+function updateUI(playlist) {
+    const currentSong = playlist.getCurrentSong();
+    var player = document.getElementById("player");
+    player.querySelector("#cover").src = currentSong.getCoverLink();
+    player.querySelector("#title").textContent = currentSong.getTitle();
+    player.querySelector("#artist").textContent = currentSong.getArtist();
+}
+
+
+window.updateUI=updateUI
+
+
+
+
+function setupMusicPlayer() {
+  playlist = new Playlist();
+
+
+
+
+  const song1 = new Song(
+    "Don't Stop",
+    "Fleetwood Mac",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Fleetwood_Mac_Don%27t_Stop.jpg/220px-Fleetwood_Mac_Don%27t_Stop.jpg",
+    "https://audio.jukehost.co.uk/wKLKcLZd42ooqB6iQB6W2o1bBFTnEOQj"
+  );
+ 
+ 
+  const song2 = new Song(
+  "Everything You Know Is Wrong",
+  "Weird Al Yankovic",
+  "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/BadHairDayCover.jpg/220px-BadHairDayCover.jpg",
+  "https://audio.jukehost.co.uk/SPIHfPTBVrdg3Xe4eW9aAbSCQeBtcbzC"
+);
+
+  playlist.addSong(song1);
+  playlist.addSong(song2);
+
+  const playerContainer = document.createElement("div");
+  playerContainer.id = "player";
+
+
+ const displayBox = document.createElement("div");
+displayBox.id = "display-box";
+
+
+const coverElement = document.createElement("img");
+coverElement.id = "cover";
+displayBox.appendChild(coverElement);
+
+
+const infoContainer = document.createElement("div");
+infoContainer.id = "info-container";
+infoContainer.style.backgroundImage = "url('https://i.ibb.co/M73CBjW/overlay.png')";
+infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+infoContainer.style.color = "white"; // Set text color to white
+
+
+const songInfo = document.createElement("div");
+songInfo.id = "song-info";
+
+
+const titleElement = document.createElement("h3");
+titleElement.id = "title";
+titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+songInfo.appendChild(titleElement);
+
+
+const artistElement = document.createElement("p");
+artistElement.id = "artist";
+songInfo.appendChild(artistElement);
+
+
+infoContainer.appendChild(songInfo);
+displayBox.appendChild(infoContainer);
+
+
+playerContainer.appendChild(displayBox);
+
+
+const controlsContainer = document.createElement("div");
+controlsContainer.id = "controls-container";
+
+
+const controls = document.createElement("div");
+controls.id = "controls";
+
+
+const prevButton = document.createElement("img");
+prevButton.id = "prevButton";
+prevButton.src = "https://i.ibb.co/gMyNq5T/back.png";
+prevButton.alt = "Previous";
+controls.appendChild(prevButton);
+
+
+const playPauseButton = document.createElement("img");
+playPauseButton.id = "playPauseButton";
+playPauseButton.src = "https://i.ibb.co/5TwzzWN/pause.png"; // Set the default play image
+playPauseButton.alt = "Play/Pause";
+controls.appendChild(playPauseButton);
+
+
+const nextButton = document.createElement("img");
+nextButton.id = "nextButton";
+nextButton.src = "https://i.ibb.co/5Rx0cYt/forward.png";
+nextButton.alt = "Next";
+controls.appendChild(nextButton);
+
+
+controlsContainer.appendChild(controls);
+
+
+playPauseButton.addEventListener("click", function () {
+  const audio = document.getElementById("audio");
+  if (audio.paused) {
+    audio.play();
+    playPauseButton.src = "https://i.ibb.co/5TwzzWN/pause.png"; // Set the pause image
+  } else {
+    audio.pause();
+    playPauseButton.src = "https://i.ibb.co/G5TsX12/play.png"; // Set the play image
+  }
+});
+
+
+nextButton.addEventListener("click", function () {
+  playlist.playNext();
+  updateUI(playlist);
+  const audio = document.getElementById("audio");
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+});
+
+
+prevButton.addEventListener("click", function () {
+  playlist.playPrevious();
+  updateUI(playlist);
+  const audio = document.getElementById("audio");
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+});
+
+
+  const progressBarContainer = document.createElement("div");
+  progressBarContainer.id = "progress-bar-container";
+
+
+  const progressBar = document.createElement("progress");
+  progressBar.type = "range";
+  progressBar.id = "progress-bar";
+  progressBar.value = "0";
+  progressBar.max = "100";
+
+
+
+
+  progressBarContainer.appendChild(progressBar);
+  controlsContainer.appendChild(progressBarContainer);
+  playerContainer.appendChild(controlsContainer);
+
+
+ const volumeContainer = document.createElement("div");
+  volumeContainer.id = "volume-container";
+
+
+const volumeLabel = document.createElement("img");
+volumeLabel.src = "https://i.ibb.co/9Gkg5Qp/volume.png";
+volumeLabel.alt = "Volume";
+volumeContainer.appendChild(volumeLabel);
+
+
+  const volumeSliderContainer = document.createElement("div");
+  volumeSliderContainer.classList.add("is-vertical");
+  volumeSliderContainer.style.marginLeft = "23%";
+  volumeSliderContainer.style.height = "126px";
+
+
+  const volumeSlider = document.createElement("input");
+  volumeSlider.type = "range";
+  volumeSlider.id = "volumeSlider";
+  volumeSlider.min = 0;
+  volumeSlider.max = 9;
+  volumeSlider.step = 1;
+  volumeSlider.value = 1; // Initial volume
+
+
+  volumeSliderContainer.appendChild(volumeSlider);
+
+
+  const volumeDisplay = document.createElement("span");
+  volumeDisplay.id = "volume-display";
+  volumeDisplay.style.fontWeight = 'bold';
+  volumeDisplay.style.display = 'none';
+  volumeDisplay.textContent = "1";
+
+
+  volumeContainer.appendChild(volumeSliderContainer);
+  volumeContainer.appendChild(volumeDisplay);
+
+
+  playerContainer.appendChild(volumeContainer);
+
+
+  gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+
+
+
+  function updateProgressBar() {
+    const audio = document.getElementById("audio");
+    const progress = (audio.currentTime / audio.duration) * 100;
+    try{progressBar.value = progress}
+  catch{}
+  }
+
+
+ 
+  progressBar.addEventListener("input", function () {
+    const audio = document.getElementById("audio");
+    const seekTime = (progressBar.value / 100) * audio.duration;
+    audio.currentTime = seekTime;
+  });
+
+
+  const audio = document.createElement("audio");
+  audio.id = "audio";
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.volume = 1/9;
+
+
+  audio.addEventListener("timeupdate", updateProgressBar);
+  audio.addEventListener("ended", function () {
+    // Play the next song when the current song ends
+    playlist.playNext();
+    updateUI(playlist);
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+
+
+    let currentVolume = 1; // Initial volume
+
+
+  volumeSlider.addEventListener("input", function () {
+    currentVolume = parseInt(volumeSlider.value, 10);
+    updateVolumeDisplay();
+    updateAudioVolume();
+  });
+
+
+  function updateVolumeDisplay() {
+    volumeDisplay.textContent = currentVolume;
+  }
+
+
+   function updateAudioVolume() {
+    const audio = document.getElementById("audio");
+    audio.volume = currentVolume / 9; // Set volume between 0 and 1
+  }
+
+
+  document.body.appendChild(audio);
+  audio.play();
+
+
+  // Update the UI when the page loads
+  updateUI(playlist);
+}
+
+
+const style = document.createElement("style");
+style.textContent = `
+#player {
+    border: 3px solid #C9C9C9; /* Add your desired border style */
+    display: flex;
+    flex-direction: row;
+  height:191px;
+    background-Image: url("https://i.ibb.co/dKL29kY/background.png");
+  }
+
+
+  #display-box {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+
+
+  #cover {
+    width: 176px;
+  height:176px;
+  }
+
+
+  #info-container {
+    display: flex;
+    flex-direction: row;
+    height:178px;
+  width:127px;
+  margin-top: 3px;
+  }
+
+
+  #song-info {
+    width: 100%;
+  padding:5px;
+  }
+
+
+  #controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width:100%;
+  padding-top:15px;
+
+
+  }
+  .is-vertical #volumeSlider {
+  width: 125px;
+}
+
+
+  #controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+  }
+
+
+  #progress-bar-container {
+    width: 100%;
+  }
+
+
+  #progress-bar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-Top: 20px;
+  }
+ 
+`;
+
+
+document.head.appendChild(style);
+
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+
+//#endcode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
